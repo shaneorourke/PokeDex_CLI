@@ -1,0 +1,19 @@
+TYPE,SUPER EFFECTIVE (ATK)
+Bug,Grass, Dark, Psychic
+Dark,Ghost, Psychic
+Dragon,Dragon
+Electric,Flying, Water
+Fairy,Fighting, Dark, Dragon
+Fighting,Dark, Ice, Normal, Rock, Steel
+Fire,Bug, Grass, Ice, Steel
+Flying,Bug, Fighting, Grass
+Ghost,Ghost, Psychic
+Grass,Ground, Rock, Water
+Ground,Electric, Fire, Poison, Rock, Steel
+Ice,Dragon, Flying, Grass, Ground
+Normal,--
+Poison,Fairy, Grass
+Psychic,Fighting, Poison
+Rock,Bug, Fire, Flying, Ice
+Steel,Fairy, Ice, Rock
+Water,Fire, Ground, Rock

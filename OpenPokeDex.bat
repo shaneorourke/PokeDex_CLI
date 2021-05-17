@@ -1,0 +1,1 @@
+cd PokeDex && PokeDexVenv\Scripts\activate.bat && python -m Pokedex.py
