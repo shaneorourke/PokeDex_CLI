@@ -53,7 +53,8 @@ con.commit()
 
 #Insert into Characters, tCharacterTypes
 data = []
-with open('Files\\Pokemon.csv', 'r') as file:
+csvFile = os.path.join('Files','Pokemon.csv')
+with open(csvFile, 'r') as file:
     reader = csv.reader(file)
     for row in reader:
         data.append(row)
@@ -83,14 +84,15 @@ for t in Types:
 
 
 ## Insert Type Properties
-Files=('Files\\PokemonTypePropertiesEffective.csv','Files\\PokemonTypePropertiesWeakness.csv')
+Files=('PokemonTypePropertiesEffective.csv','PokemonTypePropertiesWeakness.csv')
 for file in Files:
+    csvFile = os.path.join('Files',file)
     if 'Effective' in file:
         Attribute=2
     else:
         Attribute=0.5
     data = []
-    with open(file, 'r') as file:
+    with open(csvFile, 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             data.append(row)

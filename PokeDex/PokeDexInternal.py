@@ -16,7 +16,7 @@ def searchByName():
     else:
         try:
             from ImageOpener import ImageOpener
-            ImageOpener(name+'.png')
+            ImageOpener(name.capitalize()+'.png')
         except:
             print('No Image Found')
         output=''
